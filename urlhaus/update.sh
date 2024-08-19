@@ -24,7 +24,7 @@ echo $TODAY
 # awk -F',' -v today="$TODAY" '$2 ~ today {print}' $CSV_FILE >> $TMP_FILE
 
     
-#提取相关列
+# #提取相关列
 # bash extract.sh
 
 # # 倒序输出
